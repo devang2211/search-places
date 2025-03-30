@@ -1,12 +1,7 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import './styles/SearchPlaces.css';
+import SearchPlaces from './pages/SearchPlaces';
 
-function App() {
-  return (
-    <div className="App">
-      Hello World
-    </div>
-  );
-}
+const App = () => <SearchPlaces />;
 
 export default App;
